@@ -1,0 +1,57 @@
+/*---CSS Color Scheme and Such
+#7B0302 Maroon #A00204 Sangria #DBAC4D Rob Roy #EBC596 New Tan #152038 Blue Whale---*/
+
+body{
+    background-color: black;
+    background-size: cover;
+    margin: 0;
+}
+
+.header{
+    background: #a00204;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.jonk{
+    width: 20px;
+}
+
+#hero{
+    background-image: url(images/pumkin.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y:bottom;
+    min-height:800px;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+ul{
+    list-style: none;
+}
+
+.navText{
+    color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+}
+
+.imag{
+    background-image: url(https://sjc1.vultrobjects.com/cucdn/gallery-38/art/p5r-characters-art.jpg);
+    height: 1000px;
+    background-size: cover;
+}
