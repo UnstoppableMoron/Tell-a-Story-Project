@@ -1,5 +1,6 @@
 /*---CSS Color Scheme and Such
-#7B0302 Maroon #A00204 Sangria #DBAC4D Rob Roy #EBC596 New Tan #152038 Blue Whale---*/
+#7B0302 Maroon #A00204 Sangria #DBAC4D Rob Roy #EBC596 New Tan #152038 Blue Whale
+#FFFE04 Yellow #EE0002 Red #BBBEA9 Beryl Green #D31401 Free Speech Red---*/
 
 body{
     background-color: black;
@@ -8,7 +9,7 @@ body{
 }
 
 .header{
-    background: #a00204;
+    background: #d31401;
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -33,25 +34,54 @@ body{
     min-height:800px;
 }
 
-h1{
-    color: whitesmoke;
+.title{
+    color: #EBC596;
 }
 
-ul{
-    list-style: none;
+a:link, a:visited{
+    color: #EBC596;
+    text-decoration: none;
 }
 
-.navText{
-    color: whitesmoke;
-}
-
-nav{
+.nav{
     display: flex;
     list-style: none;
+}
+
+.nav a{
+    padding: 0px 25px 0px 25px;
+    color: #EBC596;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: right;
+}
+
+.logo{
+    width:14%;
+   margin: 0 0 0 0;
+   float: left;
 }
 
 .imag{
     background-image: url(https://sjc1.vultrobjects.com/cucdn/gallery-38/art/p5r-characters-art.jpg);
     height: 1000px;
     background-size: cover;
+}
+
+.copy{
+    background-color: red;
+    height: 100px;
+}
+
+h2{
+    color: white
+}
+
+h5{
+    margin-top: 30px;
+}
+
+.content{
+    text-align: center;
+    margin-bottom: 150px;
 }
