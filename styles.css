@@ -105,7 +105,7 @@ h5{
     font-size: 19px;
 }
 
-.content h2, .contentText, .charContent, .plotContent{
+.content h2, .contentText, .charContent{
     color:#EBC596;
 }
 
@@ -128,8 +128,9 @@ header .navText{
 
 .containerPlot{
     display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 500px 500px;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px 500px 500px;
+    text-align: center;
 }
 
 .containerChar{
@@ -137,4 +138,19 @@ header .navText{
     grid-template-columns: 500px;
     grid-template-rows: 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px;
     margin-left: 29%;
+}
+
+.containerPlot p{
+    margin-top: px;
+    color: #EBC596;
+}
+
+.plotBold, imgCite{
+   color:#EBC596;
+}
+
+.plotImage1{
+    color:#EBC596;
+    background-image: url(images/leblanc2.jpg);
+    background-repeat: no-repeat;
 }
