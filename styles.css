@@ -58,8 +58,12 @@ a:link, a:visited{
 
 .logo{
     width:14%;
-   margin: 0 0 0 0;
-   float: left;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+#footerLogo{
+    margin-left: 43%
 }
 
 .imag{
@@ -68,9 +72,15 @@ a:link, a:visited{
     background-size: cover;
 }
 
+.plotImag{
+    width: 50%;
+
+}
+
 .copy{
-    background-color: red;
-    height: 100px;
+    background-color: #d31401;
+    height: 200px;
+    text-align: center;
 }
 
 h2{
@@ -78,10 +88,53 @@ h2{
 }
 
 h5{
-    margin-top: 30px;
+    color:#EBC596;
 }
 
 .content{
     text-align: center;
-    margin-bottom: 150px;
+    margin: 50px 0px 70px 0px;
+    background-color:#d31401;
+    width: 80%;
+}
+
+.contentText{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.content h2, .contentText, .charContent, .plotContent{
+    color:#EBC596;
+}
+
+.charContent{
+    color:#EBC596;
+}
+
+header .navText{
+    font-weight: bolder
+}
+
+.content{
+    border-radius: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.containerPlot{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+}
+
+.containerChar{
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px;
+    margin-left: 29%;
 }
